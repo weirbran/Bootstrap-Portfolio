@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+.h1 {
+  text-decoration: none;
+}
+
+.card-deck {
+  margin-bottom: 30px;
+}
+
+container {
+  align-content: center;
+}
+
+.main-content {
+  margin-bottom: 100px;
+}
+
+card {
+  margin-bottom: 10px;
+}
+
+.nav-bar {
+  text-align: right;
+}
+
+.container {
+  max-width: 960px;
+  align-content: center;
+}
+
+textarea {
+  height: 200px;
+}
+
+form {
+  margin-bottom: -20px;
+}
+
+.footer {
+  width: 100%;
+  height: 10px;
+  align-content: center;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  left: 0;
+  bottom: 0;
+  border-top: 5px solid #003366;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 640px) {
+  .page-header {
+    position: static;
+    margin-bottom: 50px;
+  }
+
+  .navbar-nav {
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .myImage {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .navbar {
+    position: static;
+  }
+}
